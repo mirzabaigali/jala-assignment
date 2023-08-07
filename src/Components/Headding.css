@@ -1,0 +1,53 @@
+.logo {
+  background-color: #367fa9;
+  height: 6.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0 solid transparent;
+}
+.logo a {
+  color: var(--white);
+  font-size: 2rem;
+}
+.logout {
+  background-color: #367fa9;
+}
+.logout .btn-custom {
+  background-color: #367fa9 !important;
+  color: white;
+  border: none;
+}
+.logout-btn {
+  width: 10.8rem;
+  height: 6.4rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.head-icon {
+  color: var(--white);
+  font-size: 20px !important;
+}
+.logout-btn-content {
+  font-size: 16px;
+  color: white;
+  background: transparent;
+  padding-left: 5px;
+}
+.ham {
+  visibility: hidden;
+}
+.custom-drawer{
+  width: 250px !important;
+}
+@media screen and (max-width: 768px) {
+  .logout-btn-content {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .ham {
+    visibility: visible;
+  }
+}

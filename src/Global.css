@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none !important;
+  transition: 0.1s linear;
+  /* text-transform: capitalize; */
+}
+:root {
+  --yellow: yellow;
+  --white: #fff;
+  --light-white: #aaa;
+  --black: #3d3d3d;
+  --light-bg: #d2d6de;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+body {
+  background-color: var(--light-bg) !important;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.toast {
+  font-size:12px !important; /* Adjust the font size as per your preference */
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 60%;
+  }
+}

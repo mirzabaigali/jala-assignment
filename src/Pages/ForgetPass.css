@@ -1,0 +1,17 @@
+.forget {
+  width: 36rem !important;
+  margin: 2% auto !important;
+}
+.input-wrapper {
+  width: 35rem;
+  min-height: 143px;
+  background-color: var(--white);
+}
+.input-wrapper p,
+.text-field {
+  font-size: 14px;
+}
+.text-field1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
